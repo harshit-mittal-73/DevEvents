@@ -11,8 +11,8 @@ const page = async () => {
 
   cacheLife('hours')
 
-  const response = await fetch(`${BASE_URL}/api/events`);
-  const {events} = await response.json();
+  // const response = await fetch(`${BASE_URL}/api/events`);
+  // const {events} = await response.json();
 
   return (
     <>
